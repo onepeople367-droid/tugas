@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Bahasa Bali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            scroll-behavior: smooth;
+        }
+
+        .slide {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 2rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden">
+
+    <nav class="fixed top-1/2 -translate-y-1/2 right-4 flex flex-col items-center space-y-4 z-50">
+        <a href="#slide1"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 1"></a>
+        <a href="#slide200"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 2"></a>
+        <a href="#slide2"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 2"></a>
+        <a href="#slide3"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 3"></a>
+        <a href="#slide4"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 4"></a>
+        <a href="#slide5"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 5"></a>
+        <a href="#slide10"
+            class="w-4 h-4 rounded-full bg-gray-400 transition-all duration-300 hover:scale-125 focus:scale-125"
+            aria-label="Go to slide 10"></a>
+    </nav>
+
+    <section id="slide1" class="slide bg-blue-500 text-white active">
+        <div
+            class="max-w-4xl mx-auto p-8 bg-blue-600/50 backdrop-blur-sm rounded-3xl shadow-2xl transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">Presentasi Tugas Bahasa Bali</h1>
+            <p class="text-lg md:text-xl lg:text-2xl font-light">Lengkara Lumaksana Miwah Linaksana</p>
+        </div>
+    </section>
+    <section id="slide200" class="slide bg-gray-200 text-gray-800">
+        <div
+            class="max-w-4xl mx-auto p-8 rounded-3xl shadow-lg transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Om Swastiastu</h2>
+            <p class="text-left text-lg md:text-xl leading-relaxed">
+                Titiang saking kelompok 4 jagi ngaturang tugas Bahasa Bali indik lengkara lumaksana lan
+                linaksana. Sadurung punika, titiang jagi nguningayang dewek.
+            </p>
+        </div>
+    </section>
+
+    <section id="slide2" class="slide bg-white text-gray-800">
+        <div
+            class="max-w-4xl mx-auto p-8 rounded-3xl shadow-lg transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Wastan Anggota Grup</h1>
+            <ul class="text-left text-lg md:text-xl leading-relaxed space-y-4 list-disc list-inside">
+                <li>I Made Satya Krisna Putra (16)</li>
+
+                <li>I Putu Dimas Wahyu Sedana (18)</li>
+                <li>I Putu Kariana (19)</li>
+                <li>I Putu Sakya Dharma Nanda Putra (20)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="slide3" class="slide bg-gray-200 text-gray-800">
+        <div
+            class="max-w-4xl mx-auto p-8 rounded-3xl shadow-lg transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Napi Nika Lengkara?</h2>
+            <p class="text-left text-lg md:text-xl leading-relaxed">
+                Lengkara inggih punika pupulaning kruna sané manut lintihan, sané mamuat teges inggihan wénten
+                wirasanipun.
+                Lengkara sané jangkep ketah kawangun antuk (1) jejering lengkara (subjek), (2) linging lengkara
+                (predikat),
+                (3) panandang lengkara (objek), (4) pidartaning lengkara (keterangan).
+                <br><br>
+                Nganutin parilaksanan jejering, lengkara kabinayang dados kalih (2) kadi ring sor:
+            </p>
+            <ol class="text-left text-lg md:text-xl leading-relaxed space-y-2 mt-4 list-decimal list-inside">
+                <li>Lengkara Lumaksana / Kalimat Aktif</li>
+                <li>Lengkara Linaksana / Kalimat Pasif</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="slide4" class="slide bg-gray-200 text-gray-800">
+        <div
+            class="max-w-4xl mx-auto p-8 rounded-3xl shadow-lg transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Lengkara Lumaksana (Aktif)</h2>
+            <p class="text-left text-lg md:text-xl leading-relaxed">
+                Lengkara Lumaksana inggih punika lengkara sané jejering lengkaranyané nglaksana pakaryan, kasinahang
+                saking lingingnyané.
+                Sane nglaksanayang karya dados unteng bebaosan.
+            </p>
+            <p class="text-left text-lg md:text-xl leading-relaxed mt-4">
+                Cecirén lengkara lumaksana:
+            </p>
+            <ul class="text-left text-lg md:text-xl leading-relaxed space-y-2 mt-2 list-disc list-inside">
+                <li>Kruna kria lumaksana <br>
+                    Umpami: Luh Ayu **luas** ka peken.</li>
+                <li>Kruna tiron mapanganter (ma) <br>
+                    Umpami: Luh Ayu **madagang** di peken.</li>
+                <li>Kruna tiron maseselan (um) <br>
+                    Umpami: Eda Luh Ayu **sumangsaya** tekén beli.</li>
+                <li>Kruna tiron mapangiring (ang) <br>
+                    Umpami: Luh Ayu, **gaénang** bapa kopi, sirah bapané puruh!</li>
+                <li>Kruna polah <br>
+                    Umpami: Luh Ayu **nyampat** di natahé.</li>
+                <li>Kruna tiron maweweh gibung ma - an <br>
+                    Umpami: Eda ngawag **matimpugan**, nyanan ada anak lenan kena!</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="slide5" class="slide bg-gray-200 text-gray-800">
+        <div
+            class="max-w-4xl mx-auto p-8 rounded-3xl shadow-lg transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Lengkara Linaksana (Pasif)</h2>
+            <p class="text-left text-lg md:text-xl leading-relaxed">
+                **Lengkara Linaksana** inggih punika lengkara sané jejering lengkaranyané keni pakaryan. Lengkara
+                linaksana puniki kacihnayang antuk karya sane sampun puput kalaksanayang.
+            </p>
+            <p class="text-left text-lg md:text-xl leading-relaxed mt-4">
+                Lengkara Linaksana kaciriang antuk linging lengkaranyané:
+            </p>
+            <ul class="text-left text-lg md:text-xl leading-relaxed space-y-2 mt-2 list-disc list-inside">
+                <li>Kruna kria linaksana <br>
+                    Umpami: Bukuné suba **aba** tiang masuk.</li>
+                <li>Kruna tiron mapanganter ka - ma <br>
+                    Umpami: Suraté suba **kakirim** dibi sanja.</li>
+                <li>Kruna tiron maseselan in- <br>
+                    Umpami: Buku punika puput **kasinurat** warsa 2017.</li>
+                <li>Kruna tiron mapangiring in, ang <br>
+                    Umpami: I Bapa luas **negakin** sepéda motor. <br>
+                    Umpami: I Bapa **nyemakang** biu aijas.</li>
+                <li>Kruna tiron mawewehan gibung ka - an <br>
+                    Umpami: Makejang tuturanga **kajelékan** timpalné.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="slide10" class="slide bg-blue-500 text-white">
+        <div
+            class="max-w-4xl mx-auto p-8 bg-blue-600/50 backdrop-blur-sm rounded-3xl shadow-2xl transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Om Shanti Shanti Shanti Om</h2>
+            <p class="text-lg md:text-xl font-light mb-6">
+                Inggih wantah asapunika saking grup titiang, yening wenten iwang atur titiang, titiang nunas geng rena
+                sinampura, lan yening wenten pendapat ida dane sane jagi aturang utawi kirim, anggen tombol ring sor
+                puniki,Inggih wantah asapunika tur matur Suksma.
+            </p>
+            <button
+                class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors duration-300">
+                <a href="https://wa.me/6287865437880">Hubungi Kami</a>
+            </button>
+        </div>
+    </section>
+
+    <script>
+        const navLinks = document.querySelectorAll('nav a');
+        const slides = document.querySelectorAll('.slide');
+
+        // Menandai slide pertama sebagai aktif saat halaman dimuat
+        window.addEventListener('load', () => {
+            if (slides.length > 0) {
+                slides[0].classList.add('active');
+                navLinks[0].classList.replace('bg-gray-400', 'bg-blue-600');
+            }
+        });
+
+        // Event listener untuk klik pada navigasi
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Observer untuk mengaktifkan slide saat terlihat di viewport
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Nonaktifkan semua slide
+                    slides.forEach(slide => slide.classList.remove('active'));
+                    // Aktifkan slide yang sedang terlihat
+                    entry.target.classList.add('active');
+
+                    // Perbarui warna navigasi
+                    navLinks.forEach(link => {
+                        link.classList.replace('bg-blue-600', 'bg-gray-400');
+                        if (link.getAttribute('href') === `#${entry.target.id}`) {
+                            link.classList.replace('bg-gray-400', 'bg-blue-600');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.5 }); // Aktif saat 50% dari slide terlihat
+
+        slides.forEach(slide => {
+            observer.observe(slide);
+        });
+    </script>
+</body>
+
+</html>
